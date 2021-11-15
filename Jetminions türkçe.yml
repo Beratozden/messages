@@ -1,0 +1,58 @@
+NoPermission: "&eBu Komutu Kullanmaya Yetkiniz Bulunmamaktadır!"
+NoPermissionForSkin: "&eBu Skini Kullanmaya Yetkiniz Bulunmamaktadır"
+
+ErrorOccurred: "&eÜzgünüm, Bir Hata Oluştu Lütfen Tekrar Deneyin!"
+
+CantPlaceMinionHere: "&eIşçiyi Buraya Yerleştiremezsin!"
+ChunkMinionPlaceLimit: "&eBu öbekdeki Işçi Limitine Ulaşıldı. &aLimit: %CHUNKLIMIT%"
+
+MinionCannotPerformHere: "&eIşçi Işini Burada Yapamaz."
+
+RenameMessage: "&eIşçinin Adını Değiştirmek Için Sohbete Bir Isim Yazınız"
+RenameMessageCanceled: "&eIşçi Yeniden Adlandırılamayacak."
+RenameMessageSuccess: "&eIşçinin Işi Değiştirildi. &aYeni Ismi: %NAME%" 
+
+MinionMustBeFullHealthToDestroy: "&eIşçiyi Almak Için Tam Sağlığı Olmalı!"
+
+NotEnoughMoneyToHealMinion: "&eYeterli Paran Yok! Satın Almak Için &a$%MONEYNEEDED% &ePara Gerekli!"
+HealSuccessful: "&eIşçin Iyileştirildi. Yeni Canı: &a%HEALAMOUNT%"
+HealNotNeeded: "&eIşçinin Canı Zaten Dolu!"
+VaultNotInstalled: "&eKasa Yüklü Değil!"
+
+NotEnoughMoneyToUpgradeMinion: "&cIşçiyi Yükseltmeye Yeterince Paranız Bulunmamaktadır!" 
+MinionAlreadyMaxLevel: "&eIşçi Artık Daha Fazla Yükseltilemez!"
+
+MinionRotatedMessage: "&eIşçini Döndürdün"
+
+LinkAChestMessage: "&eIşçiyi Sandığa Bağlamak Için Bir Sandığa Sağ Tıklayınn!"
+LinkAChestSuccess: "&eBaşarılı! Artık Işçin Sandıkla Bağlı"
+LinkAChestUnattached: "&eIşçin Artık Bir Sandığa Bağlı Değil!"
+LinkAChestFail: "&eBir Sandığa Yeterince Hızlı Tıklamadın!"
+LinkChestBroken: "&eIşçiyle Bağlantılı Bir Sandığı Kırdın!"
+
+UnknownCommand: "&eBilinmeyen Komut"
+
+HelpCommand:
+  - "&b&m---------------&r&e[ &e&lMinions &a%VERSION% &e]&b&m---------------"
+  - "&8/&aminions list {player} &7- &fOyuncunun Işçilerini Listeler"
+  - "&8/&aminions remove {world} {x} {y} {z} &7- &fBelirtilen Kordinatlarda Olan Işçiyi Siler"
+  - "&8/&aminions about &7- &fEklenti Hakkında Bilgileri Gösterir"
+  - "&8/&aminions give {online_player} {minion_type} {amount} [level] &7- &fBelirtilen Oyuncuya Belirtilen Işçiyi Verir."
+  - "&8/&aminions reload &7- &fYapılandırma Dosyasını Yeniden Yükler."
+  - "&8/&aminions storeother {online_player} &7- &fBelirtilen Bir Oyuncu Için Mağaza Açar."
+  - "&8/&aminions store &7- &fIşçi Mağazasını Açar"
+
+GivenMinion: "&b%TYPE% &eIşçisi Verildi!"
+
+MaxMinionAmount: "&eArtık Daha Fazla Işçi Alamazsın Maksimum Işçiye Ulaştın. Maksimum Işçi: &a%MAXAMOUNTALLOWED%" 
+
+BreakMinionWithFullInventory: "&eEnvanteriniz Doluydu Işçi Yere Düştü!"
+
+MinionNameMaxLength: "&eBu Işçi Adı Çok Uzun Daha Kısa Bir Tane Deneyin!"
+
+MinionExpGiven: "&eIşçiden &a%EXP% &eEXP Aldın!"
+
+MinionStoreNotEnoughMoney: "&eBu Işçiyi Satın Almak Için Yeterli Paranız Bulunmamaktadır!"
+MinionStorePurchase: "&a%MINIONTYPE% &eIşçisini Satın Aldın!"
+
+MinionChestToFar: "&eIşçiyi %RANGEPLACED% Uzaklıkta Olan Bir Sandığa Bağlamaya Çalıştınız. Maksimum Uzaklık: &a%REQUIREDRANGE% &eOlmalı"

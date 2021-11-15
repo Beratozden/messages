@@ -1,0 +1,219 @@
+#=================================================================================================#
+#                                 Main Messages File of Chat Manager
+#=================================================================================================#
+#
+#    If you need any plugin support, feel free to join our discord server
+#    or private message me H1DD3NxN1NJA on Spigot.
+#
+#    Discord Link: https://discord.gg/n9A9xtA
+#
+#=================================================================================================#
+#
+# Information:
+#
+#   Color Codes are supported with the "&" character.
+#    - To view a list of COLOR CODES you can do /Colors in-game.
+#    - To view a list of FORMAT CODES you can do /Formats in-game.
+#
+#=================================================================================================#
+
+Message:
+  Prefix: "&8[&6Hostlayıcı&8]"
+  No_Permission: "{Prefix} &cBunun için yetkin yok!"
+  Player_Not_Found: "{Prefix} &7Oyuncu &c{target} &7bulunamadı."
+  Reload: "{Prefix} &aYenileme başarılı."
+
+#=================================================================================================#
+# Anti-Advertising Messages
+#=================================================================================================#
+Anti_Advertising:
+  Chat:
+    Message: "{Prefix} &cReklam yapma!"
+    Notify_Staff_Format: "{Prefix} &f{player} &7Sohbette reklam yapmaya çalıştı {message}"
+  Commands:
+    Message: "{Prefix} &cReklam Yapma!"
+    Notify_Staff_Format: "{Prefix} &f{player} &7Komutlar ile reklam yapmaya çalıştır {message}"
+  Signs:
+    Message: "{Prefix} &cTabelada reklam yapma!"
+    Notify_Staff_Format: "{Prefix} &f{player} &7Tabelada reklam yapmaya çalıştı {message}"
+  
+#=================================================================================================#
+# Anti-Bot Messages
+#=================================================================================================#
+Anti_Bot:
+  Deny_Chat_Message: "{Prefix} &cYazı yazmadan önce hareket etmen lazım."
+  Deny_Command_Message: "{Prefix} &cKomut kullanmadan önce hareket etmen lazım."
+  
+#=================================================================================================#
+# Anti-Caps Message
+#=================================================================================================#
+Anti_Caps:
+  Message_Chat: "{Prefix} &cMesajınız çok büyük harf içeriyor."
+  Message_Commands: "{Prefix} &cKomutlarda büyük harf kullanmayınız."
+  
+#=================================================================================================#
+# Anti-Spam Messages
+#=================================================================================================#
+Anti_Spam:
+  Chat:
+    Repetitive_Message: "{Prefix} &cAynı mesajları tekrar yazmayınız."
+    Delay_Message: "{Prefix} &7Lütfen bekleyiniz &c{Time} saniye &7sonra mesaj atabilirsiniz."
+  Command:
+    Repetitive_Message: "{Prefix} &cAynı komutu kullanmak için bekleyiniz."
+    Delay_Message: "{Prefix} &7Lütfen bekleyiniz &c{Time} saniye &7sonra komut kullanabilirsiniz."
+
+#=================================================================================================#
+# Anti-Swear Messages
+#=================================================================================================#
+Anti_Swear:
+  Chat:
+    Message: "{Prefix} &cLütfen sohbette küfür etmeyin."
+    Notify_Staff_Format: "{Prefix} &f{player}: &7{message}"
+  Commands:
+    Message: "{Prefix} &cLütfen komutlarda küfür etmeyin."
+    Notify_Staff_Format: "{Prefix} &f{player}: &7{message}"
+  Signs:
+    Message: "{Prefix} &cLütfen işaretlere küfretmeyin."
+    Notify_Staff_Format: "{Prefix} &f{player}: &7{message}"
+  Blacklisted_Word:
+    Added: "{Prefix} &c{word} &7Kelimesi karalisteye eklendi."
+    Exists: "{Prefix} &c{word} &7Kelimesi zaten ekli"
+    Removed: "{Prefix} &c{word} &7Kelimesi karalisteden silindi."
+    Not_Found: "{Prefix} &c{word} &7Kelimesi karalistede bulunamadı."
+  Whitelisted_Word:
+    Added: "{Prefix} &c{word} &7 kelimesini küfür karşıtı beyaz listeye eklediniz."
+    Exists: "{Prefix} &c{word} &7 kelimesi zaten küfür karşıtı beyaz listeye eklendi."
+    Removed: "{Prefix} &7Küfür karşıtı beyaz listesinden &c{word} &7 kelimesini kaldırdınız."
+    Not_Found: "{Prefix} &c{word} &7 kelimesi, küfür karşıtı beyaz listesinde değil."
+    
+#=================================================================================================#
+# Anti-Unicode Messages
+#=================================================================================================#
+Anti_Unicode:
+  Message: "{Prefix} &cLütfen sohbette özel karakterler kullanmayın."
+  Notify_Staff_Format: "{Prefix} &f{player}: &7{message}"
+    
+#=================================================================================================#
+# Auto-Broadcast Messages
+#=================================================================================================#
+Auto_Broadcast:
+  List: "&c{section}'s &7Otomatik yayın mesajları:"
+  Added: "{Prefix} &r{message} &7has been added to the &c{section} &7messages&7!"
+  Created: "{Prefix} &7Created the world &c'{world}' &7with the message &r{message}&7."
+  
+#=================================================================================================#
+# Banned Commands Messages
+#=================================================================================================#
+Banned_Commands:
+  Message: "{Prefix} &7/{command} &cKomutunu kullanma izniniz yok."
+  Command_Added: "{Prefix} &c{command} &7 Komutunu yasaklı komutlar listesine eklediniz."
+  Command_Exists: "{Prefix} &c{command} &7 komutu zaten yasaklı komutlar listesinde ekli."
+  Command_Removed: "{Prefix} &c{command} &7 komutunu yasaklı komutlar listesinden kaldırdınız"
+  Command_Not_Found: "{Prefix} &c{command} &7 komutu, yasaklanmış komutlar listesinde değil"
+  Notify_Staff_Format: "&7[Yasaklı Komut] &f{player}: &7{command}"
+  
+#=================================================================================================#
+# Chat Radius Messages
+#=================================================================================================#
+Chat_Radius:
+  Local_Chat:
+    Enabled: "{Prefix} &7&cYerel Sohbet&7'ye girdiniz! Yerel Sohbetten çıkmak için &c/ChatRadius global &7veya &c/ChatRadius world &7 yazın!"
+    Already_Enabled: "{Prefix} &7Zaten yerel sohbettesiniz."
+  Global_Chat:
+    Enabled: "{Prefix} &cGlobal Chat&7'e girdiniz! Global Chat'ten çıkmak için &c/ChatRadius local &7veya &c/ChatRadius global &7 yazın!"
+    Already_Enabled: "{Prefix} &7Zaten Global sohbettesiniz."
+  World_Chat:
+    Enabled: "{Prefix} &cWorld Chat&7'e girdiniz! Dünyadan ayrılmak için &c/ChatRadius local &7veya &c/ChatRadius global &7 yapın Sohbet!"
+    Already_Enabled: "{Prefix} &7Zaten dünya sohbetindesin."
+  Spy:
+    Enabled: "{Prefix} &7Dünya sohbet ajanı aktif."
+    Disabled: "{Prefix} &7Dünya sohbet ajanı kapatıldı"
+  
+#=================================================================================================#
+# Clear Chat Messages
+#=================================================================================================#
+Clear_Chat:
+  Staff_Message: "{Prefix} &eSohbet {player} Tarafından temizlendi."
+  Broadcast_Message:
+  - "&f*&c&m--------------------------------------------&f*"
+  - "&eSohbet {player} Tarafından temizlendi"
+  - "&f*&c&m--------------------------------------------&f*"
+  
+#=================================================================================================#
+# Command Spy Messages
+#=================================================================================================#
+Command_Spy:
+  Format: "&7[Komut Ajanı] {player}: &b{command}"
+  Enabled: "{Prefix} &aAjan komut etkinleştirildi."
+  Disabled: "{Prefix} &cAjan komut kapatıldı."
+  
+#=================================================================================================#
+# Mute Chat Messages
+#=================================================================================================#
+Mute_Chat:
+  Denied_Message: "{Prefix} &cŞu anda sohbette konuşamazsınız."
+  Broadcast_Messages:
+    Enabled: "{Prefix} &aSohbet {player} kullanıcısı tarafından açıldı."
+    Disabled: "{Prefix} &aSohbet {player} kullanıcısı tarafından kapatıldı."
+  Blocked_Commands:
+    Message: "{Prefix} &cSohbet kapalıyken bu komutu kullanmanıza izin verilmez.."
+    
+#=================================================================================================#
+# Per-World Chat Messages
+#=================================================================================================#
+Per_World_Chat:
+  Bypass_Enabled: "{Prefix} &aPer-world chat bypass has been enabled."
+  Bypass_Disabled: "{Prefix} &cPer-world chat bypass has been disabled."
+  
+#=================================================================================================#
+# Ping Messages
+#=================================================================================================#
+Ping:
+  Players_Ping: "{Prefix} &6Senin Gecikmen &c{ping} ms."
+  Targets_Ping: "{Prefix} &6{target} Gecikmesi &c{ping} ms."
+  
+#=================================================================================================#
+# Private Message Messages
+#=================================================================================================#
+Private_Message:
+  Recipient_Not_Found: "{Prefix} &cCevap verecek kimsen yok."
+  Toggled: "{Prefix} &cBu oyuncu şu anda mesaj alamıyor."
+  Ignored: "{Prefix} &c{target} &7şu anda sizi görmezden geliyor ve herhangi bir özel mesaj alamıyor."
+  Self: "{Prefix} &cKendi kendine mesaj atamazsın."
+  AFK: "{Prefix} &c{target} &7Şu anda afk."
+  
+#=================================================================================================#
+# Social Spy Messages
+#=================================================================================================#
+Social_Spy:
+  Format: "&bAjan &f&l[&e{player} &d-> &e{receiver}&f&l] &b{message}"
+  Enabled: "{Prefix} &aAjan mod açıldı."
+  Disabled: "{Prefix} &cAjan mod kapatıldı."
+  
+#=================================================================================================#
+# Staff Chat Messages
+#=================================================================================================#
+Staff_Chat:
+  Enabled: "{Prefix} &aYetkili sohbeti etkinleştirildi."
+  Disabled: "{Prefix} &cYetkili sohbeti kapatıldı."
+  
+#=================================================================================================#
+# Toggle Chat Messages
+#=================================================================================================#
+Toggle_Chat:
+  Enabled: "{Prefix} &aSohbet kapatıldı, artık sohbet mesajları almayacaksınız."
+  Disabled: "{Prefix} &cSohbeti açıldı, artık sohbet mesajları alacaksınız."
+  
+#=================================================================================================#
+# Toggle Mentions Messages
+#=================================================================================================#
+Toggle_Mentions:
+  Enabled: "{Prefix} &7Bahsetme geçişleri &etkinleştirildi&7, artık bahsetme mesajlarını alacaksınız."
+  Disabled: "{Prefix} &7Bahsetmeleri &cdevre dışı bırakıldı&7, bahsetme mesajlarını almayacaksınız."
+  
+#=================================================================================================#
+# TogglePM Messages
+#=================================================================================================#
+TogglePM:
+  Enabled: "{Prefix} &aTogglePM etkinleştirildi."
+  Disabled: "{Prefix} &cTogglePM devre dışı bırakıldı."
